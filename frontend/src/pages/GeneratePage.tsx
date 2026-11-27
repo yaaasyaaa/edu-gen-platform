@@ -1,7 +1,6 @@
 import React from 'react'
-
-import { Card, Button } from '@edu-gen/ui-library'
 import { Link } from 'react-router-dom'
+import { Card, Button } from '@edu-gen/ui-library'
 
 export const GeneratePage: React.FC = () => {
   return (
@@ -30,7 +29,6 @@ export const GeneratePage: React.FC = () => {
             Сгенерировать
           </Button>
 
-          {/* ДОБАВИЛИ ССЫЛКУ ДЛЯ ПРОВЕРКИ */}
           <div style={{ marginTop: '20px', paddingTop: '20px', borderTop: '1px dashed #ccc' }}>
             <p style={{ color: '#64748b', fontSize: '0.9rem', marginBottom: '10px' }}>
               (Тестовая ссылка для студента)
